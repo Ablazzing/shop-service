@@ -1,0 +1,12 @@
+spring:
+  liquibase:
+    enabled: false
+  jpa:
+    hibernate:
+      show-sql: true
+      ddl-auto: none
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop
+    username: postgres
+    password: terrrr
+    driverClassName: org.postgresql.Driver
